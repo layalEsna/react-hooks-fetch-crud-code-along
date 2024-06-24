@@ -8,6 +8,8 @@ function Filter({ category, onCategoryChange }) {
         value={category}
         onChange={(e) => onCategoryChange(e.target.value)}
       >
+
+        
         <option value="All">Filter by category</option>
         <option value="Produce">Produce</option>
         <option value="Dairy">Dairy</option>
